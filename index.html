@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
+    <main>
+        <section class="title">
+            <h1>Pokemon including
+                moves, their abilities
+                etc all in one place
+            </h1>
+        </section>
+        <section class="contain">
+            <div class="search-bar">
+                <input type="text" name="search-text" class="search-text" placeholder="Search pokemons, moves etc">
+                <button class="search-btn">
+                    <i class="ri-search-line"></i>
+                </button>
+            </div>
+            <div class="contain-buttons">
+                <a href="#" class="buttons btn-green">Pokedex</a>
+                <a href="#" class="buttons btn-red">Moves</a>
+                <a href="#" class="buttons btn-blue">Abilities</a>
+                <a href="#" class="buttons btn-yellow">Items</a>
+                <a href="#" class="buttons btn-purple">Location</a>
+                <a href="#" class="buttons btn-brown">Type Charts</a>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <span>Created by eduardo2382</span>
+        <div class="icons">
+            <a href="#">
+                <i class="ri-github-fill"></i>
+            </a>
+            <a href="#">
+                <i class="ri-instagram-line"></i>
+            </a>
+        </div>
+    </footer>
     
     <script type="module" src="scripts/script.js"></script>
 </body>
