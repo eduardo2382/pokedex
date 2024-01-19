@@ -31,9 +31,11 @@ body{
     background-color: var(--white-gray);
 
     width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -51,7 +53,7 @@ main{
 
 .title{
     width: 80vw;
-    margin: 55px 0px 46px 30px;
+    margin: 70px 0px 55px 30px;
 }
 
 .title h1{
@@ -73,7 +75,7 @@ main{
 
     display: flex;
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     overflow: hidden;
 
@@ -220,7 +222,7 @@ footer{
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 footer span{
