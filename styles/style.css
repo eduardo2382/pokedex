@@ -2,7 +2,7 @@
 
 :root{
     --white: #FCFCFC;
-    --white-gray: #E6E6E6;
+    --background: #E6E6E6;
     --green: #48D0B0;
     --green-hover: #4ebda3;
     --red: #FB6C6C;
@@ -28,7 +28,7 @@
 }
 
 body{
-    background-color: var(--white-gray);
+    background-color: var(--background);
 
     width: 100vw;
     height: 100vh;
@@ -79,7 +79,7 @@ main{
 
     overflow: hidden;
 
-    background-color: var(--white-gray);
+    background-color: var(--background);
 
     border-radius: 20px;
 }
@@ -96,7 +96,7 @@ main{
 
     outline: none;
     
-    background-color: var(--white-gray);
+    background-color: var(--background);
 
     border: none;
 }
